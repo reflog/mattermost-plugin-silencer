@@ -140,7 +140,7 @@ func (p *Plugin) handleToggleSilencer(senderID string, blockUsername string) str
 		}
 	}
 
-	result := "@%v asked @%v to be quite"
+	result := "@%v asked @%v to be quiet"
 
 	if found == -1 {
 		blockList = append(blockList, blockUser.Username)
