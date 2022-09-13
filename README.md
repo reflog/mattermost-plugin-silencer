@@ -6,7 +6,7 @@ Created as part of [Mattermost Hackathon 2019](https://github.com/mattermost/mat
 ![demo](./assets/demo.gif)
 
 ## Install
-Simply upload the plugin bundle [from the releases page](https://github.com/reflog/mattermost-plugin-silencer/releases) to your Mattermost server and configure the fields on the settings page.
+Simply upload the plugin bundle [from the releases page](https://github.com/tjmnmk/mattermost-plugin-silencer/releases) to your Mattermost server and configure the fields on the settings page.
 
 ## Usage
 User `/silencer` slash command:
