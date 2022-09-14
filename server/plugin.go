@@ -51,7 +51,7 @@ func (p *Plugin) OnActivate() error {
 	return nil
 }
 
-func (p *Plugin) notifyListChanged(blockList []string)  {
+func (p *Plugin) notifyListChanged(blockList []string) {
 	p.API.PublishWebSocketEvent("silencer_list_changed", map[string]interface{}{
 		"list": blockList,
 	}, &model.WebsocketBroadcast{})
